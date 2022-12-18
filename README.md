@@ -2,10 +2,12 @@
 `
  git clone https://github.com/ShahrokhParazit/Non-Petros
 `
-
+<hr/>
 
 `
  pip3 install -r requirements.txt
 `
+<hr/>
+
 # View Page
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{self}/count.svg" /></p>

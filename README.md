@@ -5,6 +5,11 @@
 <hr/>
 
 `
+cd Nn-Petros
+`
+<hr/>
+
+`
  pip3 install -r requirements.txt
 `
 <hr/>

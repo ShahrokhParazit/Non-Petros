@@ -10,4 +10,5 @@
 <hr/>
 
 # View Page
+<hr/>
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{self}/count.svg" /></p>

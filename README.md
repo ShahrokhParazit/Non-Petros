@@ -5,7 +5,7 @@
 <hr/>
 
 `
-cd Nn-Petros
+cd Non-Petros
 `
 <hr/>
 

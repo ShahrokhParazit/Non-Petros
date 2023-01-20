@@ -11,7 +11,6 @@ api_hash = '519feb4052933960f6fea9d6995a6fa6'
 client = TelegramClient("shahrokh", api_id, api_hash).start()
 print("         Self Runned")
 admin = 5020604688
-admin2 = 5916679901
 STATUS = True
 BOLD = False
 WRITER = False
@@ -395,16 +394,6 @@ async def Start(event):
 
         mm.text = "𝒀𝒐𝒖𝒓 𝒑𝒐𝒓𝒏 𝒓𝒆𝒒𝒖𝒆𝒔𝒕 𝒓𝒆𝒔𝒖𝒍𝒕.\n\n𝑽𝒊𝒅𝒆𝒐 𝑽𝒐𝒍𝒖𝒎𝒆 : "+str(round(mm.document.size / 1000000,2))+" MB\n"+"𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 : "+timee1+":"+timee2+" min"+"\n\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : `@Difalio`"
         await event.respond(mm)
-@client.on(events.NewMessage(pattern="/node"))
-async def Start(event):
-    global admin , STATUS 
-    if event.sender_id == admin and STATUS and admin2 == True:
-        messages=await client.get_message("databasenude",limit=int(201))
-        mm = random.choice(messages)
-
-        mm.text = "𝒀𝒐𝒖𝒓 𝒓𝒆𝒒𝒖𝒆𝒔𝒕 𝒓𝒆𝒔𝒖𝒍𝒕.\n\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : `@Difalio`"
-        await event.respond(mm)
-
 @client.on(events.NewMessage(pattern="/mydelete"))
 async def Start(event):
     global admin , STATUS

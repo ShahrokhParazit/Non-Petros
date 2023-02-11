@@ -64,7 +64,7 @@ async def Start(event):
         message = await event.get_reply_message()
         download= await client.download_media(message)
         await client.send_message("me",file=download)
-        os.remove(download)
+        #os.remove(download)
 
 @client.on(events.NewMessage(pattern="/ping"))
 async def Start(event):
